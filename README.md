@@ -21,9 +21,9 @@ To explore and analyze a retail database by:
 - Derivation of actionable insights for business scenarios.
 
 ## Repository Structure
-- /data
-- /notebooks
-- /powerbi
+- data
+- notebooks
+- powerbi
 - README.md
   
 ## Next Steps
