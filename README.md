@@ -1,32 +1,27 @@
-# SQL Analytics – Retail Dataset
+# EDA & Housing Market Dasboard
 
-Retail sales analysis performed using SQL to compute key metrics, identify patterns, and extract meaningful business insights.
+Analysis of the USA housing market performed using Python for exploratory data analysis (EDA) and Power BI for interactive data modeling and visualization.
 
-**Status:** In progress  
-**Tools:** SQL  
-**Dataset:** Retail Sales Dataset (Kaggle)
+**Status:** Ready  
+**Tools:** Python (Pandas, Numpy, Seaborn), Power BI, DAX  
+**Dataset:** USA Housing Dataset (Kaggle)
 
 ## Objective
-To explore and analyze a retail database by:
-- writing queries to calculate KPIs,
-- joining multiple tables to enrich insights,
-- identifying sales trends, categories performance, and regional patterns,
-- and summarizing findings for reporting.
+To identify the primary drivers of real estate valuation and provide a business-ready tool for market analysis by:
+- performing a rigorous Exploratory Data Analysis (EDA) to understand variable distributions and correlations,
+- applying Feature Engineering in Python to create new efficiency metrics,
+- implementing Data Modeling techniques in Power BI to handle continuous variables,
+- and developing an interactive dashboard to visualize KPIs and market trends for decision-making.
 
 ## Project Content
-- Filtering, grouping, and aggregating data using SQL.
-- Use of different JOIN types to combine datasets.
-- Sales segmentation by product, category, and region.
-- Detection of periodic or seasonal patterns.
-- Derivation of actionable insights for business scenarios.
+- **Data Preprocessing:** Cleaning and preparing raw datasets using Python.
+- **Statistical Profiling:** Analysis of the target variable (`Price`) and its correlation with socioeconomic factors (Income, Area Age).
+- **Analytics Engineering:** Transformation of continuous data into discrete categories (grouping) for better reporting usability.
+- **Interactive Visualization:** Implementation of Slicers, Scatter Plots, and Trend Charts to explore the impact of neighborhood wealth on property value.
+- **Advanced Metrics:** Creation of custom DAX measures to calculate market averages and performance indicators.
 
 ## Repository Structure
-- data
-- notebooks
-- powerbi
-- README.md
-  
-## Next Steps
-- Add DAX measures for dynamic filtering.
-- Upload final `.pbix` file.
-- Include a brief report summarizing the main insights.
+- `data/`: Contains the raw and processed (clean) CSV files.
+- `notebooks/`: Jupyter Notebook with the full Python EDA and data transformation logic.
+- `powerbi/`: Final `.pbix` file with the interactive dashboard and data model.
+- `README.md`: Project documentation and summary of findings.
